@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "enter the number:"
+read n
+sum=0
+temp=$n
+while(( $n -gt 0 ))
+do
+    if[ $(( n % i )) -eq 0 ]
+     then
+   sum= $(( sum + i ))
+   fi
+        i=$(( i++ ))
+ done
+ if[ $temp -eq $n ]
+    then 
+       echo "print perfect number"
+     else
+       echo "not a perfect number"
+ fi      
